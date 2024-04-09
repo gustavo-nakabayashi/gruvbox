@@ -653,6 +653,9 @@ endif
 
 call s:HL('DiffDelete', s:red, s:bg0, s:inverse)
 call s:HL('DiffAdd',    s:green, s:bg0, s:inverse)
+call s:HL('NeogitDiffAddHighlight',    s:green, s:bg0, s:inverse)
+call s:HL('NeogitDiffAdd',    s:green, s:bg0, s:inverse)
+
 "call s:HL('DiffChange', s:bg0, s:blue)
 "call s:HL('DiffText',   s:bg0, s:yellow)
 
